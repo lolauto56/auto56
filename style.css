@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #222222; /* 黑色背景 */
+    color: #ffffff; /* 白色字體 */
+    line-height: 1.6;
+}
+
+header {
+    background-color: #FFCC00; /* 計程車的黃色 */
+    color: black;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+section {
+    padding: 25px;
+    margin: 20px;
+    background-color: #333333;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+section h2 {
+    font-size: 26px;
+    margin-bottom: 20px;
+    color: #FFCC00; /* 計程車的黃色 */
+}
+
+ul, ol {
+    list-style-position: inside;
+    margin-left: 20px;
+}
+
+li {
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+
+button, .button {
+    background-color: #FFCC00; /* 計程車的黃色 */
+    color: black;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+button:hover, .button:hover {
+    background-color: #FF9900; /* 更深的橙色 */
+}
+
+a {
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    padding: 30px 20px;
+    background-color: #222222;
+    color: white;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+/* 響應式設計 */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 30px;
+    }
+
+    section h2 {
+        font-size: 22px;
+    }
+
+    li {
+        font-size: 14px;
+    }
+
+    button, .button {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+    footer p {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 26px;
+    }
+
+    section h2 {
+        font-size: 20px;
+    }
+
+    li {
+        font-size: 12px;
+    }
+
+    button, .button {
+        padding: 8px 18px;
+        font-size: 12px;
+    }
+
+    footer p {
+        font-size: 10px;
+    }
+}
